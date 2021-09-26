@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Sample Form</h2>
+
+<form action="/action_page.php">
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  
+   <label for="research">RESEARCH INTEREST(Mention atleast three)</label><br>
+   <input type="text" id="research" name="research"><br>
+   <br>
+   
+    <label for="projecttitle">PROJECT TITLE(Eg: stock market analysis)</label><br>
+   <input type="text" id="ptitle" name="ptitle">
+  <h3>TOP SKILLS</h3>
+   <input type="checkbox" id="skill1" name="skill1" value="SQL">
+   <label for="skill1"> SQL</label><br>
+   <input type="checkbox" id="skill2" name="skill2" value="python programming">
+   <label for="skill2">Python programming </label><br>
+   <input type="checkbox" id="skill3" name="skill3" value="Matlab">
+   <label for="skill3"> Matlab</label><br>
+   <input type="checkbox" id="skill4" name="skill4" value="D3js and Javascript">
+   <label for="skill4"> D3js and Javascript</label><br>
+   <input type="checkbox" id="skill5" name="skill5" value="C# VB.net">
+   <label for="skill5"> C# VB.net</label><br>
+   <input type="checkbox" id="skill6" name="skill6" value="PHP">
+   <label for="skill6"> PHP</label><br>
+   <input type="checkbox" id="skill7" name="skill7" value="NODE.JS">
+   <label for="skill7"> NODE.JS</label><br>
+   <input type="checkbox" id="skill8" name="skill8" value="Web Design Tools">
+   <label for="skill8"> Web Design Tools</label><br>
+   <input type="checkbox" id="skill9" name="skill9" value="HTML AND CSS">
+   <label for="skill9"> HTML AND CSS</label><br>
+   <input type="checkbox" id="skill10" name="skill10" value="Excel">
+   <label for="skill10"> EXCEL</label><br>
+   <input type="checkbox" id="skill11" name="skill11" value="POWERBI">
+   <label for="skill11"> POWERBI</label><br>
+   <input type="checkbox" id="skill12" name="skill12" value="TABLEAU">
+   <label for="skill1"> TABLEAU</label><br>
+   <input type="checkbox" id="skill13" name="skill13" value="OTHER">
+   <label for="skill1"> OTHERS</label><br>
+   <label for="others"> </label>
+   <input type="text" id="other" name="otheroption"><br>
+   
+   <br>
+   
+   <label for="suggestions">SUGGESTIONS OR QUESTIONS</label><br>
+   <input type="text" id="sugeestions" name="suggestions">
+
+ 
+ 
+</select> <br>
+<br>
+
+
+
+ <input type="submit" value="Submit">
+</form> 
+
+
+</body>
+</html>
+
